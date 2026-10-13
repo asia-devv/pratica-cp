@@ -1,10 +1,25 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div>
+    <header>
+      <h1>AsiaToys</h1>
+      <nav>
+        <ul>
+          <li>
+            <Link to={"/"} classname="">Home</Link>
+          </li>
+          <li>
+            <Link to={"/"} classname="">Contato</Link>
+          </li>
+          <li>
+            <Link to={"/"} classname="">Sobre</Link>
+          </li>
+        </ul>
+      </nav>
       
-    </div>
+    </header>
   )
 }
 
