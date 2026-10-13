@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Contato from './pages/Contato'
 import Sobre from './pages/Sobre'
+import Home from './pages/Home'
 
 
 const App = () => {
